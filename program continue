@@ -1,0 +1,14 @@
+#include<iostream>
+using namespace std;
+int main(){
+	//membuat program continue
+	cout<< "TUGAS MEMBUAT PROGRAM CONTINUE" << endl;
+	cout<< "nama: nadia amira putri" <<endl;
+	cout<< "nim: ETE10190111" <<endl;
+
+		for ( int i = 1 ; i <= 50 ; i++){
+			if ( i % 2 == 0) continue;
+			cout << i << endl;
+		}
+	return 0;
+}
