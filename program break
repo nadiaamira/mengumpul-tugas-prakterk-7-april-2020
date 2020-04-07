@@ -1,0 +1,14 @@
+#include<iostream>
+using namespace std;
+int main(){
+	//membuat program break
+	cout<< " TUGAS MEMBUAT PROGRAM BREAK" << endl;
+	cout<< " nama: nadia amira putri"<< endl;
+	cout<< " nim: ETE10190111"<< endl;
+
+		for ( int i = 10 ; i <= 50 ; i++){
+			if ( i > 25) break;
+			cout << i << endl;
+		}
+	return 0;
+}
